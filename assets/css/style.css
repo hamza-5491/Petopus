@@ -1,0 +1,681 @@
+*{
+    word-wrap: break-word;
+    font-family: 'Titillium Web', sans-serif;
+}
+.container{
+    /* border: 1px solid black; */
+}
+
+section{
+    padding: 70px 0px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.primary{
+    color: #091740;
+}
+.secondary{
+    color: #352E2E;
+}
+.orange{
+    color: #FF5E3A;
+}
+.bg-orange{
+    background-color: #FF5E3A !important;
+}
+.bg-bridesmaid{
+    background-color: #F9E5E0;
+}
+
+.primary-heading{
+    min-height: 100px;
+}
+.primary-heading h2{
+    color: #091740;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+}
+.primary-heading p{
+    color: #091740;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+/* header section  */
+header{
+    background-color: #F6D1C8;
+}
+header .container{
+    max-width: 1200px;
+}
+header .logo{
+    max-width: 29px;
+}
+header a.btn{
+    font-size: 6px;
+}
+header a.btn{
+    font-size: 6px;
+}
+header .navbar-toggler-icon{
+    color: white;
+    filter: invert(100%);
+    max-width: 16px;
+    max-height: 20px;
+}
+
+/* hero-section */
+
+.hero .row1{
+    min-height: 300px;
+    text-align: center;
+    /* background-position: center center; */
+}
+.hero .container{
+    background-image: url('../images/banner-bg-sm.png');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.hero .row1 h1{
+    font-size: 20px;
+    
+}
+.hero .row1 p{
+    font-size: 12px;
+    color: #0A0000;
+}
+.hero .row1 a{
+    font-size: 10px;
+    padding: 7px 5%;
+}
+
+
+.hero .row2 {
+    text-align: center;
+}
+
+.hero .row2 .pagination{
+    justify-content: center;
+    min-height: 150px;
+    margin-top: 70px;
+    align-items: flex-end;
+}
+
+.hero .row2 a{
+    padding: 0px 12px 2px 12px;
+    color: #F9E5E0;
+    font-weight: 500;
+    font-size: 30px;
+    background-color: #FF5E3A;
+}
+.hero .row2 a.active{
+    background-color: #fff;
+}
+
+/* partner section  */
+
+.partner .row2 img{
+    max-width: 55px;
+    max-height: 30px;
+    margin: 10px 5px;
+}
+
+/* feature-section  */
+
+.feature img.f-img{
+    max-height: 100%;
+    max-width: 100%;
+}
+.feature .icon-col .row img{
+    height: 38px;
+    width: 38px;
+}
+
+.feature .row h5{
+    font-size: 20px;
+    font-weight: bold;
+    color: #091740;
+}
+.feature .row p{
+    font-size: 18px;
+    color: #352E2E;
+}
+
+/* social section  */
+.social .primary-heading{
+    min-height: 400px;
+}
+.social img{
+    width: 100%;
+    margin: 10px;
+}
+.social .social-col-1{
+    margin-top: -280px;
+}
+.social .social-col-3{
+    margin-bottom: -400px;
+}
+.social .card{
+    margin-bottom: 20px;
+    border: 1px solid #F9E5E0 !important;
+    border-radius: 10px;
+    box-shadow: 0px 1px 8px #888888;
+
+}
+
+.social img.social-icon{
+    max-width: 50px;
+}
+
+.social .card-body h5{
+    color: #222A41;
+    font-weight: bold;
+    font-size: 24px;
+}
+.social .card-body p{
+    color: #6D7783;
+    font-size: 16px;
+}
+.social .card-body a{
+    color: #FF5E3A;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/* devices section  */
+.devices .primary-heading{
+min-height: 600px;
+}
+.devices .icon{
+    margin-top: 100px;
+    margin-bottom: -120px;
+}
+
+.icon p{
+    font-weight: 500;
+    color: #330B05;
+    font-size: 18px;
+}
+.icon .icon-p{
+    flex-wrap: nowrap;
+    background-color: white;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px;
+    min-height: 90px;
+    box-shadow: 0px 2px 8px #888888;
+}
+.devices .icon img{
+    max-width: 30px;
+    margin-right: 5px;
+}
+
+/* help section  */
+.help .primary-heading{
+    margin-top: 140px;
+}
+.image-crousal img{
+    width: 100%;
+}
+
+/* image section  */
+.image-section{
+    max-width: 1440px;
+}
+.col-img{
+    position: relative;
+    min-width: 276px;
+    min-height: 550px;
+}
+
+.col-img-1{
+    background-image: url('../images/help/Phone-1.png');
+    background-repeat: no-repeat;
+}
+.col-img-2{
+    background-image: url('../images/help/Phone-2.png');
+    background-repeat: no-repeat;
+}
+.col-img-3{
+    background-image: url('../images/help/Phone-3.png');
+    background-repeat: no-repeat;
+    margin-left: -10%;
+}
+.col-img-4{
+    min-width: auto;
+    min-height: 600px;
+    z-index: 4;
+}
+.col-img-5{
+    background-image: url('../images/help/Phone-5.png');
+    background-repeat: no-repeat;
+    background-position: right right;
+    margin-left: -10%;
+    z-index: 3;
+}
+.col-img-6{
+    background-image: url('../images/help/Phone-6.png');
+    background-repeat: no-repeat;
+    background-position: right right;
+    margin-left: -10%;
+    z-index: 2;
+}
+.col-img-7{
+    background-image: url('../images/help/Phone-7.png');
+    background-repeat: no-repeat;
+    background-position: right right;
+    margin-left: -10%;
+    z-index: 1;
+}
+
+/* members section  */
+.members .row .col{
+    border-radius: 50%;
+}
+.members .row img{
+    max-width: 74px;
+}
+
+.members .row .col{
+    padding: 20% 0px;
+}
+/* footer section  */
+footer .row1{
+    min-height: 400px;
+}
+footer .subscribe{
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+footer .row1 button{
+    /* margin-left: -155px; */
+    position: absolute;
+    right: 13%;
+    font-size: 10px;
+    color: white;
+    border-radius: 25px;
+}
+footer .row1 button{
+    position: absolute;
+    right: 14%;
+    font-size: 18x;
+    padding: 13px 25px;
+}
+footer .row1 input{
+    flex-grow: 2;
+    font-size: 12px;
+    padding: 28px;
+    border-radius: 20px;
+}
+
+
+.copyright .row{
+    min-height: 55px;
+}
+.copyright p{
+    font-size: 14px;
+    margin: 0px;
+    margin-top: 5px;
+    color: white;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px){
+    .primary-heading{
+        min-height: 150px;
+    }
+    .primary-heading h2{
+        margin-bottom: 13px;
+        font-size: 42px;
+    }
+    .primary-heading p{
+        margin-bottom: 20px;
+        font-size: 21px;
+    }
+    /* hero-section */
+    .hero .row1{
+        min-height: 600px;
+    }
+    .hero .row1 h1{
+        font-size: 50px;
+        margin-bottom: 18px;
+    }
+    .hero .row1 p{
+        font-size: 21px;
+        margin-bottom: 45px;
+    }
+    .hero .row1 a{
+        font-size: 26px;
+        padding: 16px 60px;
+    }
+     /* partner section  */
+
+    .partner .row2 img{
+        max-width: 151px;
+        max-height: 82px;
+        padding: 10px 30px;
+    }
+    /* devices section  */
+    .devices .icon .icon-p{
+        flex-wrap: nowrap;
+        min-height: 90px;
+    }
+
+     /* footer section  */
+     footer .subscribe{
+        width: 76%;
+    }
+    footer .row1 button{
+        right: 16%;
+        font-size: 14px;
+        padding: 11px 28px;
+    }
+    footer .row1 input{
+        font-size: 16px;
+        padding: 32px;
+    }
+
+    .copyright p{
+        font-size: 14px;
+    }
+
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px){
+    /* header-section */
+    .navbar-toggler-icon{
+        max-width: 31px;
+        max-height: 27px;
+    }
+    header .logo{
+        max-width: 79px;
+    }
+    header a.btn{
+        font-size: 13px;
+    }
+    /* partner section  */
+    .partner .row2 img{
+        max-width: 151px;
+        max-height: 82px;
+        padding: 0px;
+    }
+
+     /* feature-section  */
+
+    .feature .icon-col .row img{
+        height: 16px;
+        width: 20px;
+    }
+
+    .feature .row h5{
+        font-size: 24px;
+    }
+    .feature .row p{
+        font-size: 21px;
+    }
+
+    /* social section  */
+
+    .social .primary-heading{
+        min-height: 400px;
+    }
+    .social .social-col-1{
+        margin-top: -280px;
+    }
+    .social .social-col-2{
+        margin-top: 0px;
+    }
+
+    .social .card{
+        min-height: 400px;
+    }
+
+    .social .card-body h5{
+        font-size: 24px;
+    }
+    .social .card-body p{
+        font-size: 16px;
+    }
+    .social .card-body a{
+        font-size: 20px;
+    }
+
+    /* footer section  */
+
+    footer .subscribe{
+        width: 66%;
+    }
+    footer .row1 button{
+        right: 20%;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px){
+    .primary-heading{
+        min-height: 200px;
+    }
+    .primary-heading h2{
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    .primary-heading p{
+        font-size: 22px;
+        margin-bottom: 20px;
+
+    }
+
+     /* header-section */
+     header{
+        background-color: #F9E5E0;
+     }
+     header .logo{
+        max-width: 65px;
+    }
+    header a.btn{
+        font-size: 18px;
+    }
+
+    /* hero-section */
+    .hero{
+        background-color: #F9E5E0;
+        
+    }
+    .hero .row1{
+        align-items: center;
+        min-height: 650px;
+        text-align: left;
+    }
+    .hero .container{
+        max-width: 1180px;
+        background-image: url('../images/hero-bg.png');
+        background-size: cover;
+        /* background-position: center center; */
+    }
+    .hero .row1 h1{
+        font-size: 111px;
+        
+    }
+    .hero .row1 p{
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+    .hero .row1 a{
+        margin-top: 20px;
+        font-size: 18px;
+        padding: 11px 80px;
+    }
+
+    .hero .row2 .pagination{
+        justify-content: flex-start;
+        /* min-height: 150px; */
+        margin-top: 70px;
+        min-height: 0px;
+    }
+
+    /* partner section  */
+    .partner .row2 img{
+        max-width: 120px;
+        max-height: 65px;
+    }
+
+    
+    /* feature-section  */
+
+    .feature .icon-col .row img{
+        height: 38px;
+        width: 38px;
+    }
+
+    .feature .row h5{
+        font-size: 20px;
+    }
+    .feature .row p{
+        font-size: 18px;
+    }
+
+    /* social section  */
+
+    .social .primary-heading{
+        min-height: 400px;
+    }
+    .social .social-col-1{
+        margin-top: -280px;
+    }
+    .social .social-col-2{
+        margin-top: 0px;
+    }
+    .social .social-col-1 .card{
+        margin-top: -150px;
+    }
+    .social .card{
+        min-height: 400px;
+    }
+
+    .social img.social-icon{
+    max-width: 50px;
+    }
+
+    .social .card-body h5{
+        font-size: 24px;
+    }
+    .social .card-body p{
+        font-size: 16px;
+    }
+    .social .card-body a{
+        color: #FF5E3A;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    /* image section  */
+    .col-img{
+        min-width: 226px;
+        min-height: 530px;
+    }
+
+    .col-img-1{
+        margin-left: 1%;
+    }
+    .col-img-2{
+        margin-left: -15%;
+    }
+    .col-img-3{
+        margin-left: -15%;
+    }
+    .col-img-4{
+        min-height: 560px;
+        margin-left: -15%;
+    }
+    .col-img-5{
+        margin-left: -15%;
+    }
+    .col-img-6{
+        margin-left: -15%;
+    }
+    .col-img-7{
+        margin-left: -15%;
+    }
+
+    
+
+    /* footer section  */
+
+    footer .subscribe{
+        width: 51%;
+    }
+    footer .row1 button{
+        right: 26%;
+        font-size: 14px;
+        padding: 13px 30px;
+    }
+    footer .row1 input{
+        font-size: 16px;
+        padding: 35px;
+    }
+
+    .copyright p{
+        font-size: 14px;
+    }
+
+
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px){
+
+    /* hero section  */
+    .hero .row1{
+        margin-top: -80px;
+    }
+    .hero .row1{
+        min-height: 700px;
+    }
+        /* image section  */
+    .image-section{
+        max-width: 1440px;
+    }
+    .col-img{
+        min-width: 276px;
+        min-height: 550px;
+    }
+
+    .col-img-1{
+        margin-left: 5%;
+    }
+    .col-img-2{
+        margin-left: -12%;
+    }
+    .col-img-3{
+        margin-left: -12%;
+    }
+    .col-img-4{
+        margin-left: -12%;
+        min-height: 600px
+    }
+    .col-img-5{
+        margin-left: -12%;
+    }
+    .col-img-6{
+        margin-left: -12%;
+    }
+    .col-img-7{
+        margin-left: -12%;
+    }
+}
